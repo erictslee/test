@@ -20,7 +20,7 @@ import java.util.List;
 @RequestMapping("/api")
 public class ProductController {
 
-    private final ProductService productService;
+    private final ProductService productService; ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
 
     @PostMapping("/products")
     public ProductResponseDto createProduct(@RequestBody ProductRequestDto requestDto, @AuthenticationPrincipal UserDetailsImpl userDetails) {
